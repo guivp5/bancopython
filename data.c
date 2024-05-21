@@ -21,7 +21,7 @@ void connect_to_db() {
     SQLAllocHandle(SQL_HANDLE_DBC, env, &dbc);
 
     retcode = SQLDriverConnect(dbc, NULL,
-        (SQLCHAR*) "DRIVER={ODBC Driver 17 for SQL Server};SERVER=<your_server>.database.windows.net;DATABASE=<your_db>;UID=<your_user>;PWD=<your_password>;",
+        (SQLCHAR*) "DRIVER={ODBC Driver 17 for SQL Server};SERVER=faculdade-mysql.mysql.database.azure.comlear.database.windows.net;DATABASE=agenda;UID=garotosdeprograma;PWD=Faculdade@157;",
         SQL_NTS, NULL, 0, NULL, SQL_DRIVER_COMPLETE);
 
     if (SQL_SUCCEEDED(retcode)) {

@@ -1,1 +1,1 @@
-sqlite3.connect('users.db')
+faculdade-mysql.mysql.database.azure.com
